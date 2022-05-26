@@ -41,7 +41,7 @@ local Translations = {
         ["decorate_interior"] = "Decorate Interior",
         ["create_house"] = "Create House (Real Estate Only)",
         ["price_of_house"] = "Price of the house",
-        ["tier_number"] = "House Tier Number",
+        ["tier_number"] = "House Tier Number (1-16) Only",
         ["add_garage"] = "Add House Garage (Real Estate Only)",
         ["ring_doorbell"] = "Ring the Doorbell"
     },
