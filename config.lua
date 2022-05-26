@@ -544,7 +544,7 @@ Config.Furniture = {
 			[25] = { ["object"] = "prop_mil_crate_01", ["price"] = 100, ["label"] = "Mil Crate 1" },
 			[26] = { ["object"] = "prop_mil_crate_02", ["price"] = 100, ["label"] = "Mil Crate 2" },
 			[27] = { ["object"] = "prop_ld_int_safe_01", ["price"] = 1100, ["label"] = "Safe" },
-			[28] = { ["object"] = "prop_toolchest_05", ["price"] = 5000, ["label"] = "Crafting Bench" },
+			--[28] = { ["object"] = "prop_toolchest_05", ["price"] = 5000, ["label"] = "Crafting Bench" },
 			[29] = { ["object"] = "v_corp_filecablow", ["price"] = 500, ["label"] = "Filing cabinet Low" },
 			[30] = { ["object"] = "v_corp_filecabtall", ["price"] = 500, ["label"] = "Filing cabinet High" },
 			[31] = { ["object"] = "apa_mp_h_str_shelffloorm_02", ["price"] = 500, ["label"] = "Large modern cupboard" },
