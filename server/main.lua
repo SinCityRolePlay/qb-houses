@@ -61,7 +61,7 @@ QBCore.Commands.Add("decorate", Lang:t("info.decorate_interior"), {}, false, fun
     TriggerClientEvent("qb-houses:client:decorate", src)
 end)
 
-QBCore.Commands.Add("createhouse", Lang:t("info.create_house"), {{name = "price", help = Lang:t("info.price_of_house")}, {name = "tier", help = Lang:t("info.tier_number")}}, true, function(source, args)
+QBCore.Commands.Add("createhouse", Lang:t("info.create_house"), {{name = "price", help = Lang:t("info.price_of_house")}, {name = "tier 1-16", help = Lang:t("info.tier_number")}}, true, function(source, args)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local price = tonumber(args[1])
