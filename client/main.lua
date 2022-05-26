@@ -727,7 +727,7 @@ local function getDataForHouseTier(house, coords)
         return exports['qb-interior']:CreateWarehouse1(coords)
     elseif Config.Houses[house].tier == 16 then
         return exports['qb-interior']:CreateFurniMotelStandard(coords) -- End of free shells
-    elseif Config.Houses[house].tier == 17 then
+    --[[elseif Config.Houses[house].tier == 17 then
         return exports['qb-interior']:CreateMedium2(coords)
     elseif Config.Houses[house].tier == 18 then
         return exports['qb-interior']:CreateMedium3(coords)
@@ -864,7 +864,7 @@ local function getDataForHouseTier(house, coords)
     elseif Config.Houses[house].tier == 84 then
         return exports['qb-interior']:CreateV2Modern2(coords)
     elseif Config.Houses[house].tier == 85 then
-        return exports['qb-interior']:CreateV2Modern3(coords)
+        return exports['qb-interior']:CreateV2Modern3(coords)]]
     else
         QBCore.Functions.Notify(Lang:t("error.invalid_tier"), 'error')
     end
